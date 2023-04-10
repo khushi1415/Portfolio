@@ -329,11 +329,11 @@ img {
         z-index: var(--z-back);
     }
 
-    &__html {
+    &__python {
         width: 95%;
     }
 
-    &__css {
+    &__java {
         width: 85%;
     }
 
@@ -350,8 +350,8 @@ img {
     }
 }
 
-/* ===== WORK =====*/
-.work {
+/* ===== PROJECTS =====*/
+.projects {
     &__container {
         row-gap: 2rem;
     }
@@ -467,7 +467,7 @@ img {
         column-gap: 1rem;
     }
 
-    .work__container {
+    .project__container {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 2rem;
         padding-top: 2rem;
@@ -554,7 +554,7 @@ img {
         text-align: initial;
     }
 
-    .work__container {
+    .project__container {
         grid-template-columns: repeat(3, 1fr);
         column-gap: 2rem;
     }
